@@ -26,8 +26,8 @@ Segue o levantamento de requisitos do sistema:
 
 ### Requisitos não funcionais
 
-- [ ] Ao cadastrar uma tarefa, ela deve possuir o status "PENDENTE";
-- [ ] Ao atualizar o status de uma tarefa, deve ser possível progredir com uma tarefa como também regredir o status da tarefa (por exemplo do status "TRABALHANDO" para o status "PENDENTE");
+- [ ] Ao cadastrar uma tarefa, ela deve possuir o status "PARA FAZER";
+- [ ] Ao atualizar o status de uma tarefa, deve ser possível progredir com uma tarefa como também regredir o status da tarefa (por exemplo do status "TRABALHANDO" para o status "PARA FAZER");
 - [ ] Deve ser possível listar todas as tarefas, com seus respectivos status;
 - [ ] Deve ser possível listar as tarefas por categoria.
 
@@ -35,9 +35,10 @@ Estes requisitos são as funcionalidades mínimas do sistema que deve entregar. 
 
 #### Status das tarefas
 
-- PENDENTE (estado inicial)
+- PARA FAZER (estado inicial)
 - TRABALHANDO
-- CONCLUIDA
+- ESPERANDO
+- FEITO
 
 ### Testes
 
