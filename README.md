@@ -22,16 +22,22 @@ Segue uma abstração de como o sistema deve funcionar:
 
 ### Requisitos não funcionais
 
-- [ ] Ao cadastrar uma tarefa, ela deve possuir o status "Para fazer";
-- [ ] Ao atualizar o status de uma tarefa, deve ser possível progredir com uma tarefa como também regredir o status da tarefa (por exemplo do status "Trabalhando" para o status "Para fazer");
+- [ ] Ao cadastrar uma tarefa, ela deve possuir o status "PENDENTE";
+- [ ] Ao atualizar o status de uma tarefa, deve ser possível progredir com uma tarefa como também regredir o status da tarefa (por exemplo do status "TRABALHANDO" para o status "PENDENTE");
 - [ ] Deve ser possível listar todas as tarefas, com seus respectivos status;
 - [ ] Deve ser possível listar as tarefas por categoria.
 
 Estes requisitos são as funcionalidades mínimas do sistema que deve entregar. Você também pode adicionar outros requisitos funcionais e não funcionais, mas se lembre do tempo de prova e das restrições citadas acima.
 
-### Testes unitários
+#### Status das tarefas
 
-Além disso, você também deve criar pelo menos testes unitários coerentes com as funcionalidades que implementar nas classes. Também é permitida a criação de testes de integração e e2e.
+- PENDENTE (estado inicial)
+- TRABALHANDO
+- CONCLUIDA
+
+### Testes
+
+Você também deve criar pelo menos testes end-to-end (e2e) coerentes com as funcionalidades que implementar nas classes. Também é permitida a criação de testes de integração e unitários, mas leve em consideração o tempo de prova.
 
 Bom teste!
 
